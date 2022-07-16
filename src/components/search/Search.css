@@ -1,0 +1,18 @@
+.form{
+    align-items: center;
+    text-align: center;
+
+    width:500px;
+    margin: 0 auto;
+
+}
+.form-input{
+    width: 400px;
+    border: 1px solid;
+    border-radius: 10px;
+    height: 40px;
+    font-size: 1.7em;
+    text-align: center;
+ 
+}
+
