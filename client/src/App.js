@@ -16,7 +16,7 @@ function App() {
     const fetchData = async (search)=>{
       setloading(true);
       try{
-      const response = await axios.get(`https://api.unsplash.com/search/photos?page=1&query=${search}&client_id=`);
+      const response = await axios.get(`https://api.unsplash.com/search/photos?page=1&query=${search}&client_id=${process.env.REACT_APP_API_KEY}`);
 
       const pictures = await response.data;
       setPhotos(pictures);
